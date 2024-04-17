@@ -2,8 +2,70 @@
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
-  }
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #e01b77;
+  background-color: #001e46;
+}
+
+body {
+background-color: #001e46;
+margin: 0px;
+border-width: 15px;
+border-color: #e01b77;
+border-style: groove;
+/* height: 100vh; */
+box-sizing: border-box;
+}
+
+h3 {
+text-align: center;
+color: #e01b77;
+letter-spacing: 5px;
+word-spacing: 5px;
+font-size: 300%;
+font-family: 'Groovy Beach';
+}
+
+h1 {
+text-align: center;
+color: #e01b77;
+letter-spacing: 5px;
+word-spacing: 5px;
+font-size: 300%;
+font-family: sans-serif;
+}
+
+h2 {
+color: #e01b77;
+}
+
+.intro {
+  font-size: 125%;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #e01b77;
+  width: 51%;
+}
+
+p {
+  font-size: 125%;
+  color: #e01b77;
+}
+
+a {
+  color:#e01b77;
+}
+
+#content {
+padding: 10px;
+}
+
+.alien {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
