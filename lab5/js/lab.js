@@ -7,10 +7,10 @@
 // Functions
 
 //Define Variables
-make = "Ford";
-model = "Taurus";
-color = "Rusty";
-year = 1995;
+make = "Kia";
+model = "Soul";
+color = "Grey";
+year = 2010;
 
 //calculate
 age = 2024 - year;
