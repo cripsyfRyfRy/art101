@@ -1,8 +1,9 @@
 // index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Author: Ryan Hollenbach
+// Date: May 16, 2024
 
 // Constants
+let isLeft = true;
 
 // Functions
 function generateRandomText() {
@@ -16,14 +17,14 @@ function generateRandomText() {
   return text.slice(randStart, randStart + randLen);
 }
 
-// // click listener for button
-// $("#make-convo").click(function(){
-//   const newText = generateRandomText();
-//   console.log("text: " + newText);
+// click listener for button
+$("#make-convo").click(function(){
+  const newText = generateRandomText();
+  console.log("text: " + newText);
   
-//   console.log("click");
-//   $("#output").append('<div class="text"><p>' + newText + '</p></div>');
-// });
+  console.log("click");
+  $("#output").append('<div class="text"><p>' + newText + '</p></div>');
+});
 
 // click listener for button
 $("#make-convo").click(function(){
