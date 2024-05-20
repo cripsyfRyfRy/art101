@@ -11,13 +11,24 @@ function sortString(inputString) {
   return inputString.split('').sort().join('');
 }
 
+// $("#submit").click(function(){
+//   // get value of input field
+//   const userName = $("#user-name").val();
+//   // now let's sort it
+//   userNameSorted = sortString(userName);
+//   // append a new div to our output div
+//   $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
+// });
 $("#submit").click(function(){
-  // get value of input field
   const userName = $("#user-name").val();
-  // now let's sort it
   userNameSorted = sortString(userName);
-  // append a new div to our output div
-  $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
+  $("#output").append('<div class="text"><p>' + userNameSorted + '</p></div>');
+});
+
+$("#submit2").click(function(){
+  const userName2 = $("#user-name2").val();
+  userNameSorted = sortString(userName2);
+  $("#output").append('<div class="text"><p>' + userNameSorted + '</p></div>');
 });
 
 // this is an example function and this comment tells what it doees and what parameters are passed to it.
